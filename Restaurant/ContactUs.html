@@ -2,25 +2,44 @@
 <html>
     <center>
         <head>
+            <link href="restaurantStyles.css"
+            rel="stylesheet"
+            type="text/css"/>
+            <style>
+                div.relative{
+                    position: relative;
+                    left: 100px;
+                }
+                .div1{
+                    float: right;
+                }
+                .td{
+                    vertical-align: top;
+                }
+                </style>
             <title>Home Page</title>
         </head>
     </center>
-    <body>
+    <header>
         <center>
         <h1>Roy's Roadside Cafe</h1>
         </center>
+        </header>
         <hr></hr>
          <a href="HomePage.html">Home</a>
         <a href="Menu.html">Menu</a>
         <a href="ContactUs.html">Contact Us</a>
         <hr></hr>
             <body>
-                <form action="#" method="Post">
-                    <table border="0" width="25%">
-                        <tbody align="right">
+                <div class="relative">
+                <form>
+                    <table>
+                        <tbody>
                             <tr>
                                 <td>
+                                    <div class="div1">
                                     <label id="NameLabel" for="Name">Name: </label>
+                                    </div>
                                 </td>
                                 <td>    
                                     <input id="Name" name"Name" type="text"/>
@@ -28,24 +47,30 @@
                             </tr>
                             <tr>
                                 <td>
+                                    <div class="div1">
                                     <label id="EmailLabel" for="Email">Email: </label>
-                                </td>
+                                    </div>
+                                    </td>
                                 <td>
                                     <input id="Email" name"Email" type="text"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
+                                    <div class="div1">
                                     <label id="PhoneLabel" for="Phone">Phone: </label>
-                                </td>
+                                    </div>
+                                    </td>
                                  <td>
                                     <input id="Phone" name"Phone" type="text"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
+                                    <div class="div1">
                                     Reason for Inquiry:
-                                </td>
+                                    </div>
+                                    </td>
                                 <td>    
                                     <select name="Reason">
                                     <option value="Catering">Catering</option>
@@ -56,27 +81,33 @@
                                  </td>
                             </tr>
                             <tr>
-                                 <td>
+                                 <td class="td">
+                                     <div class="div1">
                                      Additional information:
-                                 </td> 
+                                     </div>
+                                     </td>
                                 <td>   
-                                     <textarea name="AdditionalInfo">
+                                     <textarea name="AdditionalInfo" rows="5" cols="22">
                                     </textarea>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Have you been to the restaurant?
-                                </td>
+                                    <div class="div1">
+                                        Have you been to the restaurant?
+                                    </div>
+                                    </td>
                                 <td>
                                     <input type="checkbox" name="Yes">Yes
                                     <input type="Checkbox" name="No">No
                                 </td>
                             </tr>
-                             <tr>
-                                <td>
-                                    Best day to reach you:
-                                </td>
+                             <tr>                                
+                                     <td>
+                                         <div class="div1">
+                                            Best day to reach you:
+                                         </div>
+                                    </td>
                                 <td>
                                     <input type="checkbox" name="Answer" value="M">M
                                     <input type="checkbox" name="Answer" value="T">T
@@ -88,16 +119,21 @@
                             <tr>
                                 <td></td>
                                 <td>
+                                    <div class="div1">
                                     <input type="submit" id="SubmitButton" value="SendRequest">
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </form>
+                </div>
+                </body>
         <hr></hr>
+        <footer>
         <center >
             4259 Cavanaugh Road, Wyattsville, Texas, 33728<br/>
             (714)-655-6555
         </center>
-    </body>
+        </footer>
 </html>
