@@ -1,10 +1,17 @@
-header
-{
+header{
     color: blue;
     Font-weight: bold;
 }
-footer
-{
+footer{
     Color: blue;
     Font-weight: bold
+    }
+    h1{
+        font-family: fantasy; font-size: 400%;
+    }
+    th{
+        font-size: 150%;
+    }
+    td{
+        font-size: 100%;
     }
