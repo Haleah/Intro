@@ -1,11 +1,12 @@
 header{
     color: blue;
     Font-weight: bold;
+}footer{
+    color:blue;
+    font-weight:bold;
+    font-size:200%;
+    font-family: fantasy;
 }
-footer{
-    Color: blue;
-    Font-weight: bold
-    }
     h1{
         font-family: fantasy; font-size: 400%;
     }
@@ -14,4 +15,30 @@ footer{
     }
     td{
         font-size: 100%;
+    }
+    a:link{
+        font-family:fantasy;
+        color:darkblue;
+         text-decoration: underline;
+    }
+    a:visited{
+        font-family:fantasy;
+        color:maroon;
+        text-decoration: underline;
+    }
+    a:focus{
+        font-family:fantasy;
+        color:darkblue;
+        text-decoration: underline;
+    }
+    a:hover{
+        font-family:fantasy;
+        color:darkblue;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    a:active{
+        font-family:fantasy;
+        color:darkblue;
+         text-decoration: none;
     }

@@ -7,14 +7,21 @@
             type="text/css"/>
             <style>
                 .menu{
-                    background-color: grey
-                }
-                tr{
-                    text-align: center;
-                }
-                table{
                     width: 100%;
-                    float: center;
+                    float:center;
+                    background-color:lightskyblue;
+                    text-align:center;
+                }
+                .drink{
+                    width:100%;
+                    float:left;
+                    background-color:lightskyblue;
+                    vertical-align:top;
+                    text-align: left;
+                    table-layout: fixed;
+                }
+                .right{
+                    text-align:right;
                 }
             </style>
             <title>Home Page</title>
@@ -27,12 +34,11 @@
     </header>
     <body>
         <hr></hr>
-         <a href="HomePage.html" link="blue">Home</a>
-        <a href="Menu.html" link="blue">Menu</a>
-        <a href="ContactUs.html" link="blue">Contact Us</a>
+         <a href="HomePage.html">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="ContactUs.html">Contact Us</a>
         <hr></hr>
-        <div class="menu">
-            <table>
+            <table class="menu">
                 <thead>
                     <tr>
                         <th>Burger and Fries</th>
@@ -93,15 +99,38 @@
                         <td>Served with our house made chips</td>
                         <td>Thousand island or Ranch dressing Served with a dinner roll</td>
                         <td>Served With our famous thick-cut french fries</td>                        
-                    </tr><tr>
+                    </tr>
+                    <tr>
                         <td>$8.95</td>
                         <td>$6.95</td>
                         <td>$7.95</td>                        
                     </tr>
                 </tbody>
             </table>
+            <table class="drink">
+                <tbody>
+                    <tr>
+                        <td style="text-decoration:underline; font-size:150%; font-weight:bold;">Beverages</td>
+                    </tr>
+                    <tr>
+                        <td>Rootbeer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
+                    </tr>
+                </tbody>
+            </table>
             </body>
-            </div>
         <hr></hr>
         <footer>
         <center >
