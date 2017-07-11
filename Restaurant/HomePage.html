@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <center>
         <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
             <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css"/>
             <style>
                 .content{
+                    overflow: auto;
                     background-color: grey;
                 }
   .bordered {
-    width: 360px;
-    height: 150px;
+   max-width: 360px;
+    height: 200px;
     padding: 20px;
-    border: 1px solid black;
+    outline: 1px solid black;
   }
 </style>
             <title>Home Page</title>
-    </center>
     </head>
     <header>
         <center>
         <h1>Roy's Roadside Cafe</h1>
         </center>
+        <div class="container">
+            <div class="jumbotron">
+                We will be opening a brand new location in Nelton Texas!!!
+            </div>
+        </div>
         </header>
         <body>
         <hr></hr>
-        <a href="HomePage.html">Home</a>
-        <a href="Menu.html">Menu</a>
-        <a href="ContactUs.html">Contact Us</a>
+        <ul class="list-inline nav nav-pills">
+        <li class="container-fluid"><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
         <hr></hr>
-        <div class="content">
+        <div class="container col-xs-12 content">
         <center>
+            <div>
             <img src="images/roy.jpg"
-            style="width: 400px; height: 150px"/><br/>
+            style="width: 400px; height: 150px" class="img-responsive"/>
+            </div><br/>
             <div class="bordered">
-            Roy's Roadside Cafe.
-            Here we will treat you to the best that America has to offer in the way of authentic and local cuisne.
+            <div class="row"><p>
+                Roy's Roadside Cafe, here we will treat you to the best that America has to offer in the way of authentic and local cuisne.
             Everything we made in our restaraunt is organic and locally sourced, garaunting us the freshest and finest ingriendients. 
             Located on the outskirts of Wyattsville, Roy's has been serving the public since the mid 1950's.
-             </div>
+            </p></div>
+             </div><br/><br/>
         </center>
         </div>
         <hr></hr>
-            </body>
+        </body>
             <footer>
                 <center>
                 <p>
