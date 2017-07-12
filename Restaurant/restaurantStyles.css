@@ -1,3 +1,15 @@
+.carousel-content {
+    font-size: 200%;
+    color: black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
 header{
     color: blue;
     Font-weight: bold;
